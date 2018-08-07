@@ -13,7 +13,7 @@ import java.util.ArrayList;
 
 public class Adaptadormaestro extends RecyclerView.Adapter<Adaptadormaestro.myviewholder> {//4
 
-    private ArrayList<extraccionmaestro> listamenu;
+    private ArrayList<extracciondesitios> listamenu;
     private onClickrecycler listener;
 
     @NonNull
@@ -29,7 +29,7 @@ public class Adaptadormaestro extends RecyclerView.Adapter<Adaptadormaestro.myvi
 
     @Override
     public void onBindViewHolder(@NonNull myviewholder holder, int position) {
-        extraccionmaestro extraccion = listamenu.get(position);
+        extracciondesitios extraccion = listamenu.get(position);
         holder.bind(extraccion,listener);
 
     }
@@ -42,10 +42,10 @@ public class Adaptadormaestro extends RecyclerView.Adapter<Adaptadormaestro.myvi
     //1
     public interface onClickrecycler{
 
-        void onCLickItemRecycler(extraccionmaestro extraccion);
+        void onCLickItemRecycler(extracciondesitios extraccion);
     }
     //2
-    public Adaptadormaestro(ArrayList<extraccionmaestro> listamenu, onClickrecycler listener) {
+    public Adaptadormaestro(ArrayList<extracciondesitios> listamenu, onClickrecycler listener) {
         this.listamenu = listamenu;
         this.listener = listener;
     }
@@ -60,7 +60,7 @@ public class Adaptadormaestro extends RecyclerView.Adapter<Adaptadormaestro.myvi
             imageView = (ImageView)itemView.findViewById(R.id.imagen);
         }
 
-        public  void bind(final extraccionmaestro extraccion, final onClickrecycler listener){
+        public  void bind(final extracciondesitios extraccion, final onClickrecycler listener){
 //Glide.with(imageView.getContext()).load(extraccion.getImagen()).into(imageView);
 
 

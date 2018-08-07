@@ -15,7 +15,7 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.example.usuario.appturistico.Clases.Adaptadormaestro;
-import com.example.usuario.appturistico.Clases.extraccionmaestro;
+import com.example.usuario.appturistico.Clases.extracciondesitios;
 
 import java.util.ArrayList;
 
@@ -45,7 +45,7 @@ public class fragmentmaestr extends Fragment {
     Toolbar toolbar;
     View view;
     MenuItem menuItem;
-    ArrayList<extraccionmaestro> listamenu;
+    ArrayList<extracciondesitios> listamenu;
     Adaptadormaestro adaptador;
     public fragmentmaestr() {
         // Required empty public constructor
@@ -87,18 +87,18 @@ public class fragmentmaestr extends Fragment {
         imageView = view.findViewById(R.id.salir);
         recyclerView = view.findViewById(R.id.galeria);
         recyclerView.setLayoutManager(new LinearLayoutManager(getContext(),LinearLayoutManager.VERTICAL,false));
-        listamenu = new extraccionmaestro().listademenu();
+        listamenu = new extracciondesitios().listademenu();
+
+adaptador = new Adaptadormaestro(listamenu, new Adaptadormaestro.onClickrecycler() {
+    @Override
+    public void onCLickItemRecycler(extracciondesitios extraccion) {
+        imageView.setImageResource(extraccion.getImagen());
+        textView.setText(extraccion.getNombre());
+
+    }
+});
 
 
-
-        adaptador = new Adaptadormaestro(listamenu, new Adaptadormaestro.onClickrecycler() {
-            @Override
-            public void onCLickItemRecycler(extraccionmaestro extraccion) {
-                imageView.setImageResource(extraccion.getImagen());
-                textView.setText(extraccion.getNombre());
-
-            }
-        });
         recyclerView.setAdapter(adaptador);
 
 
