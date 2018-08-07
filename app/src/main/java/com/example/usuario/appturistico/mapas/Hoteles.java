@@ -180,7 +180,7 @@ public class Hoteles extends Fragment implements OnMapReadyCallback, GoogleMap.O
 
 
 
-
+//PRUEBA GIT
 
 
     }
