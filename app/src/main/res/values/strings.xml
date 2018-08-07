@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">appturistico</string>
+    <string name="lol">TURISTAPP</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Turistico</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_spash">spash</string>
+
+    <string name="texto">
+        Lorem ipsum dolor sit amet consectetur adipiscing elit pellentesque,
+        ullamcorper ultricies molestie dignissim varius habitant pharetra dictumst leo, etiam sociis vitae
+        imperdiet diam torquent facilisi. Malesuada rutrum at vitae justo nostra sem, sodales posuere
+        torquent vestibulum enim, nisl penatibusasdasdasdasdasdasdas dasd asdas dasd  asda sdas asd
+        quisque netus ullamcorper. Quisque orci mauris accumsan
+        ligula mollis aliquam habitant quam, diam id blandit primis metus posuere morbi pretium,
+        suspendisse conubia volutpat sodales ornare pellentesque dictumst.</string>
+
+    <string name="descricion">
+        Es el mejor sitio \" para\" ir de vacaciones
+    </string>
+
+    <string name="descricion2">
+      "disfruta, baila , rie con nuestro sitio turistico de hotles
+    </string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="search">search</string>
+    <string name="irmapa1">Ir MAPA1</string>
+    <string name="title_masterdetail_list">Items</string>
+    <string name="title_masterdetail_detail">masterdetail Detail</string>
+</resources>

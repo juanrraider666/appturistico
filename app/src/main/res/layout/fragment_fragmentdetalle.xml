@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    tools:context=".Fragments.Fragmentdetalle">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ImageView
+        android:id="@+id/idmiagendetalle"
+        android:layout_width="match_parent"
+        android:layout_height="292dp"
+        android:scaleType="fitXY"
+        android:src="@mipmap/ic_sitio1" />
+
+    <TextView
+        android:id="@+id/idtextodetalle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/texto" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/mapa"
+        android:layout_width="wrap_content"
+        android:layout_height="112dp"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="@dimen/fab_margin"
+        app:srcCompat="@android:drawable/ic_menu_mapmode" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/mapa2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="@dimen/fab_margin"
+        app:srcCompat="@android:drawable/ic_menu_mapmode" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/mapa3"
+        android:layout_width="70dp"
+        android:layout_height="100dp"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="@dimen/fab_margin"
+        app:srcCompat="@android:drawable/ic_menu_mapmode" />
+</LinearLayout>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--ANIMACION PARA DAR MOVIMIENTO DE SALIDA AL ABRIR OTRA ACTIVADAD -->
+<translate
+
+    android:fromXDelta="0"
+    android:toXDelta="100%p"
+    android:duration="1000"
+
+
+
+    />
+
+    <!--
+    ANIMACION PARA MOVER DE DERECHA A IZQUIERDA
+    android:fromXDelta="0"
+       android:toXDelta="100%p"
+       android:duration="1000"-->
+
+    <!--
+   ANIMACION PARA MOVER DE ABAJO HACA ARRIBA
+   android:fromYDelta="0"
+   android:toYDelta="-100%p"
+   android:duration="1000"-->
+
+    <!--
+  ANIMACION PARA MOVER DE ABAJO HACIA ARRIBA
+  android:fromYDelta="0"
+  android:toYDelta="100%p"
+  android:duration="1000"-->
+
+
+
+</set>
