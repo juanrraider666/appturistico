@@ -14,7 +14,7 @@ import java.util.ArrayList;
 
 public class Adaptador extends RecyclerView.Adapter<Adaptador.ViewHolderDatos> implements  View.OnClickListener{//escribir esta linea primero, deespues implementar clase
 
-ArrayList<extracciondesitios>datos  = new ArrayList<>(); //implementamos y despues implementamos en constructor de abajo
+ArrayList<extracciondesitios>datos  = new ArrayList<>(); //ddimplementamos y despues implementamos en constructor de abajo
 private View.OnClickListener onClickListener;
 
 
